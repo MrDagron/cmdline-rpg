@@ -1,4 +1,5 @@
 ﻿using System;
+using cmdline_rpg.test_folder;
 
 namespace cmdline_game
 {
@@ -7,6 +8,7 @@ namespace cmdline_game
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            test.test_print();
         }
     }
 }
