@@ -6,8 +6,9 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            ListenSocket listener = new ListenSocket(11111);
+            Console.WriteLine("Please enter a port you want to listen to:");
+            int port = Int32.Parse(Console.ReadLine());
+            ListenSocket listener = new ListenSocket(port);
         }
     }
 }
