@@ -9,9 +9,18 @@ namespace cmdline_rpg.common
 {
     public abstract class NPCCommons
     {
-        string name; // NPC Name
-        int hp; // NPC Health
-
+        private string name; // NPC Name
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        private int hp; // NPC Health
+        public int HP
+        {
+            get { return hp; }
+            set { hp = value; }
+        }
         /* 
             Object types to add here later when implemented: 
                 1. Equipment object
@@ -35,22 +44,5 @@ namespace cmdline_rpg.common
         public abstract void attack();
         public abstract void defend();
         public abstract void interact();
-
-        // Getters and setters
-        public string getName() {
-            return this.name;
-        }
-
-        public int getHp() {
-            return hp;
-        }
-
-        public void setName(string name) {
-            this.name = name;
-        }
-
-        public void setHp(int hp) {
-            this.hp = hp;
-        }
     }
 }

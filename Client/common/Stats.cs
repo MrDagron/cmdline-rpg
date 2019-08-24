@@ -9,18 +9,72 @@ namespace cmdline_rpg.common
 {
     public class Stats
     {
-        int attack;
-        int defense;
-        int dexterity;
-        int magic;
-        int faith;
-        int endurance;
-        int mining;
-        int botany;
-        int fishing;
-        int farming;
-        int hunting;
-
+        private int attack;
+        public int Attack
+        {
+            get { return attack; }
+            set { attack = value; }
+        }
+        private int defense;
+        public int Defense 
+        {
+            get { return defense; }
+            set { defense = value; }
+        }
+        private int dexterity;
+        public int Dexterity
+        {
+            get { return dexterity; }
+            set { dexterity = value; }
+        }
+        private int magic;
+        public int Magic
+        {
+            get { return magic; }
+            set { magic = value; }
+        }
+        private int faith;
+        public int Faith
+        {
+            get { return faith; }
+            set { faith = value; }
+        }
+        private int endurance;
+        public int Endurance
+        {
+            get { return endurance; }
+            set { endurance = value; }
+        }
+        private int mining;
+        public int Mining
+        {
+            get { return mining; }
+            set { mining = value; }
+        }
+        private int botany;
+        public int Botany
+        {
+            get { return botany; }
+            set { botany = value; }
+        }
+        private int fishing;
+        public int Fishing
+        {
+            get { return fishing; }
+            set { fishing = value; }
+        }
+        private int farming;
+        public int Farming
+        {
+            get { return farming; }
+            set { farming = value; }
+        }
+        private int hunting;
+        public int Hunting
+        {
+            get { return hunting; }
+            set { hunting = value; }
+        }
         // Constructor
         public Stats() {
             this.attack = 10;
@@ -34,95 +88,6 @@ namespace cmdline_rpg.common
             this.fishing = 10;
             this.farming  = 10;
             this.hunting = 10;
-        }
-
-        // Getters and setters
-        public int getAttack() {
-            return this.attack;
-        }
-
-        public int getDefense() {
-            return this.defense;
-        }
-
-        public int getDexterity() {
-            return this.dexterity;
-        }
-
-        public int getMagic() {
-            return this.magic;
-        }
-
-        public int getFaith() {
-            return this.faith;
-        }
-
-        public int getEndurance() {
-            return this.endurance;
-        }
-
-        public int getMining() {
-            return this.mining;
-        }
-
-        public int getBotany() {
-            return this.botany;
-        }
-
-        public int getFishing() {
-            return this.fishing;
-        }
-
-        public int getFarming() {
-            return this.farming;
-        }
-
-        public int getHunting() {
-            return this.hunting;
-        }
-
-        public void setAttack(int val) {
-            this.attack = val;
-        }
-
-        public void setDefense(int val) {
-            this.defense = val;
-        }
-
-        public void setDexterity(int val) {
-            this.dexterity = val;
-        }
-
-        public void setMagic(int val) {
-            this.magic = val;
-        }
-
-        public void setFaith(int val) {
-            this.faith = val;
-        }
-
-        public void setEndurance(int val) {
-            this.endurance = val;
-        }
-
-        public void setMining(int val) {
-            this.mining = val;
-        }
-
-        public void setBotany(int val) {
-            this.botany = val;
-        }
-
-        public void setFishing(int val) {
-            this.fishing = val;
-        }
-
-        public void setFarming(int val) {
-            this.farming = val;
-        }
-
-        public void setHunting(int val) {
-            this.hunting = val;
         }
     }
 }

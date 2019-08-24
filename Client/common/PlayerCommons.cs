@@ -9,9 +9,18 @@ namespace cmdline_rpg.common
 {
     public abstract class PlayerCommons
     {
-        string name; // player name
-        int hp; // player hit points
-
+        private string name; // player name
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        private int hp; // player hit points
+        public int HP
+        {
+            get { return hp; }
+            set { hp = value; }
+        }
         /* 
             Object types to add here later when implemented: 
                 1. Inventory object
@@ -30,22 +39,5 @@ namespace cmdline_rpg.common
         public abstract void attack();
         public abstract void defend();
         public abstract void use(); // Will probably have an argument eventually, but no arguments for now
-
-        // Getters and setters
-        public string getName() {
-            return this.name;
-        }
-
-        public int getHp() {
-            return hp;
-        }
-
-        public void setName(string name) {
-            this.name = name;
-        }
-
-        public void setHp(int hp) {
-            this.hp = hp;
-        }
     }
 }
