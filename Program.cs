@@ -7,8 +7,8 @@ namespace cmdline_game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            test.test_print();
+            MainGame game =  new MainGame();
+            game.GameLoop();
         }
     }
 }
