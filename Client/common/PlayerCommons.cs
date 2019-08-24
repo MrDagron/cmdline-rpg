@@ -30,7 +30,8 @@ namespace Client.Common
         */
 
         // Constructor
-        public PlayerCommons(string playerName, int hp) {
+        public PlayerCommons(string playerName, int hp) 
+        {
             this.name = playerName;
             this.hp = hp;
         }
