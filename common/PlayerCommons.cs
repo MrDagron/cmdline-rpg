@@ -16,13 +16,13 @@ namespace cmdline_rpg.common
             Object types to add here later when implemented: 
                 1. Inventory object
                 2. Equipment object
-                3. Abilties/Spell object
+                3. Abilties/Spells object
         */
 
         // Constructor
-        public PlayerCommons(string playerName, int health) {
+        public PlayerCommons(string playerName, int hp) {
             this.name = playerName;
-            this.hp = health;
+            this.hp = hp;
         }
 
         // Attack command that will be determine a lot of other things by the Player object implemented later
