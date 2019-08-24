@@ -5,7 +5,7 @@
     Purpose: This class allows other objects to inherit its property and define them as needed
  */
 
-namespace cmdline_rpg.common
+namespace cmdline_rpg.Common
 {
     public abstract class NPCCommons
     {
