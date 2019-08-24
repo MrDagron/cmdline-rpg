@@ -17,6 +17,7 @@ namespace cmdline_rpg.common
                 1. Inventory object
                 2. Equipment object
                 3. Abilties/Spells object
+                4. Stats object
         */
 
         // Constructor

@@ -18,6 +18,7 @@ namespace cmdline_rpg.common
                 2. Abilties/Spells object
                 3. Loot table
                 4. Dialogue
+                5. Stats
         */
 
         // Constructor
