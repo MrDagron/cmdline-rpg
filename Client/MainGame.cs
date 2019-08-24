@@ -1,6 +1,6 @@
 using System;
 
-namespace cmdline_game
+namespace Client
 {
     public class MainGame
     {

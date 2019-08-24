@@ -1,6 +1,6 @@
 using System;
 
-namespace cmdline_rpg.test_folder
+namespace Client.test_folder
 {
     public class test
     {
