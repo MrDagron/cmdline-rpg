@@ -5,7 +5,7 @@ Purpsoe: This file makes it easy to calculate attacks since all the stats
 will be stored in the same object
 */
 
-namespace Client.cmdline_rpg.common
+namespace cmdline_rpg.common
 {
     public class Stats
     {
